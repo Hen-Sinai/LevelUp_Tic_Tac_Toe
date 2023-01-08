@@ -1,0 +1,71 @@
+.table {
+    height: 100%;
+    width: 80%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    font-size: 200%;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+  
+  .table th {
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .table td {
+    padding: 10px;
+    /* border: 1px solid #ddd; */
+    text-align: left;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:hover {
+    background-color: #ddd;
+  }
+
+
+header, .row {
+    display: flex;
+  }
+  
+  .col {
+    flex: 1;
+  }
+
+.headRow {
+  border-bottom: 4px solid #ddd;
+}
+
+.dateButton {
+  font-size: 14;
+  height: 10px;
+  width: 5%;
+  border: 2px solid #ddd;
+  margin-top: 2%;
+  margin-left: 35%;
+  background-color: white;
+}
+
+.dateButton {
+  font-size: 14;
+  height: auto;
+  width: 5%;
+  border: 2px solid #ddd;
+  margin-top: 2%;
+  margin-left: 35%;
+  background-color: white;
+}
+
+.winnerSelect {
+  font-size: 14;
+  width: 5%;
+  border: 2px solid #ddd;
+  margin-top: 2%;
+  margin-left: 27.5%;
+}
